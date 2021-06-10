@@ -1,0 +1,20 @@
+.container{
+    border: 20px solid yellowgreen;
+    border-radius: 50%;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(rgb(100,100,100), rgb(130,130,130), rgb(170,170,170));
+    position: relative;
+    top: 130px;
+}
+body{
+    background-color:black;
+}
+#clock{
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    text-align: center;
+    font-size: 40px;
+}
